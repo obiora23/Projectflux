@@ -1,0 +1,68 @@
+/* Big Screen */
+@media screen and (min-width:600px) {
+    .obi-ms {
+        margin-left: 500px;
+    }
+
+    .hideImgB {
+        display: none;
+    }
+
+    .pflux {
+        width: 500px;
+    }
+}
+
+/* Small Screen */
+@media screen and (max-width:599px) {
+    .pflux {
+        width: auto;
+    }
+
+    .hideImg {
+        display: none;
+    }
+}
+
+.obi-fs {
+    font-size: 12px;
+}
+
+#RequestDemo {
+    border: solid 1px rgb(3, 41, 3);
+}
+
+p {
+    letter-spacing: 2px;
+}
+
+#RequestDemo:hover {
+    border: none;
+    background-color: rgb(3, 41, 3);
+    transition: all 1s ease;
+    color: white;
+}
+
+.text-green {
+    color: rgb(41, 31, 3);
+}
+
+.fs {
+    font-size: 45px;
+}
+
+.btn-green {
+    border: solid 1px rgb(3, 41, 3);
+}
+
+.btn-green:hover {
+    border: none;
+    background-color: rgb(3, 41, 3);
+    transition: all 1s ease;
+    color: white;
+    font-size: 20px;
+}
+
+.obip-5 {
+    padding: 100px;
+}

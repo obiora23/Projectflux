@@ -1,0 +1,35 @@
+
+// !  **** DISABLED CODE BELOW ****
+// // Scrolling
+
+// // Home Section
+
+// const home = document.querySelector(".home .container ");
+// home.classList.add("home-active");
+
+// // About Section
+// const aboutus = document.querySelector("#aboutus");
+// window.addEventListener("scroll", () => {
+// 	if (window.pageYOffset >= 200) {
+// 		aboutus.classList.add("active");
+// 	}
+// });
+
+// // Importance Section
+
+// const importance = document.querySelector("#importance");
+
+// window.addEventListener("scroll", () => {
+// 	if (window.pageYOffset >= 800) {
+// 		importance.classList.add("importance-active");
+// 	}
+// });
+
+// // How to section
+
+// const howTo = document.querySelector("#howdoes .title2");
+// window.addEventListener("scroll", () => {
+// 	if (window.pageYOffset >= 1400) {
+// 		howTo.classList.add("howTo-active");
+// 	}
+// });
